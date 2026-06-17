@@ -23,7 +23,7 @@ local QueueOnTeleport =
 local function QueueScript()
     if QueueOnTeleport then
         QueueOnTeleport([[
-            loadstring(game:HttpGet("YOUR_SCRIPT_URL"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/aauhsoj19/hephep/refs/heads/main/hephep.lua"))()
         ]])
     end
 end
