@@ -8,7 +8,7 @@ local PlaceID = game.PlaceId
 
 -- Persist settings
 getgenv().AutoHopEnabled = getgenv().AutoHopEnabled ~= false
-getgenv().HopDelay = getgenv().HopDelay or 60
+getgenv().HopDelay = getgenv().HopDelay or 300
 
 local AutoHop = getgenv().AutoHopEnabled
 local Delay = getgenv().HopDelay
